@@ -12,11 +12,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 @ExtendWith(OutputCaptureExtension.class)
 class LoopPrinterTests {
-
-    @Test
-	void contextLoads() {
-	}
-
    	@Test
     void testDoSomething_withCount1_shouldPrintDescending(CapturedOutput output) {
         // Act
