@@ -1,6 +1,9 @@
 package com.nasdaq.challenge.loopprinter.utils;
 
-public class LoopPrinter {
+import org.springframework.stereotype.Service;
+
+@Service
+public class LoopPrinterImpl implements ILoopPrinter{
 
     /**
  * Prints a nested loop pattern of "Outer" and "Inner" labels based on the given {@code count}.
